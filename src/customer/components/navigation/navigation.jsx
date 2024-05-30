@@ -9,7 +9,7 @@ import {
 
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 import { navigation } from "./navigationData";
-import logo from "../../../assets/shoppingLogo.png"
+import logo from "../../../assets/luxeLoomLogo.png"
 import flagIndia from "../../../assets/flag.png"
 
 
@@ -444,9 +444,9 @@ export default function Navigation() {
                       className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                       aria-hidden="true"
                     />
-                    <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">
+                    {/* <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">
                       2
-                    </span>
+                    </span> */}
                     <span className="sr-only">items in cart, view bag</span>
                   </Button>
                 </div>
